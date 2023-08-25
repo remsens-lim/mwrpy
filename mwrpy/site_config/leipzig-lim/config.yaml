@@ -18,7 +18,7 @@ global_specs:
     history:
 
     # Where the original data was produced
-    institution: University of Leipzig
+    institution: Leipzig University
 
     # Miscellaneous Information about the dataset or methods used to produce it
     comment:
