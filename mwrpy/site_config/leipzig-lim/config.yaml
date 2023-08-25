@@ -33,7 +33,7 @@ global_specs:
     instrument_id:
 
     # WIGOS Station identifier acording to WIGOS convention
-    wigos_station_id: XXX
+    wigos_station_id: leipzig-lim
 
     # Department responsible for the instrument
     principal_investigator: Institute for Meteorology (LIM)
