@@ -99,7 +99,7 @@ def _nan_time_gaps(time: ndarray, tgap: float = 5.0 / 60.0) -> ndarray:
 def _gap_array(time: ndarray, case_date, tgap: float = 5.0 / 60.0) -> ndarray:
     """Returns edges of time gaps bigger than 5min (default).
     End of gap for current day is current time."""
-    locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
+    locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
     dtnow = datetime.now(tz=timezone.utc)
     day_e = 24.0
     if dtnow.strftime("%d %b %Y") == case_date.strftime("%d %b %Y"):

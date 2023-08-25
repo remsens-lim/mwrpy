@@ -75,8 +75,8 @@ params:
   # -------------------
 
   # path to level1 data and path for processed files
-  data_in: /tmp/data/
-  data_out: /tmp/data/
+  data_in: /projekt2/remsens/data_new/site-campaign/leipzig-lim/instruments/limhat/raw/
+  data_out: /projekt2/remsens/data_new/site-campaign/leipzig-lim/instruments/limhat/actris/
 
   # availability of IR
   ir_flag: True

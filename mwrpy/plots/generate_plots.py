@@ -381,7 +381,7 @@ def _init_colorbar(plot, axis):
 
 def _read_date(nc_file: str) -> date:
     """Returns measurement date."""
-    locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
+    locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
     with netCDF4.Dataset(nc_file) as nc:
         case_date = datetime.strptime(nc.date, "%Y-%m-%d")
     return case_date
